@@ -41,10 +41,14 @@ public class StartScreen extends JFrame {
 	 * Create the frame.
 	 */
 	public StartScreen() {
+		
+		//Propriedades da janela
 		setType(Type.UTILITY);
 		setForeground(Color.GRAY);
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setBounds(100, 100, 720, 392);
+		
+		
 		contentPane = new JPanel();
 		contentPane.setBorder(new EmptyBorder(0, 0, 0, 0));
 		setContentPane(contentPane);
